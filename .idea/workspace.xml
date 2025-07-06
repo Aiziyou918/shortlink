@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df570544-a8b7-487c-90d5-8513b20f15f4" name="更改" comment="" />
+    <list default="true" id="df570544-a8b7-487c-90d5-8513b20f15f4" name="更改" comment="feature: 开发短链接后管系统">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/common/serialize/PhoneDesensitizationSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/dto/resp/UserActualRespDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/dto/resp/UserRespDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/dto/resp/UserRespDTO.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,13 +45,54 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.shortlink-all [package].executor": "Run",
+    "Maven.shortlink-gateway [package].executor": "Run",
+    "Maven.shortlink-project [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ShortLinkAdminAppliction.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "I:/java_project/shortlink",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\Java\shortlink\gateway\src\main\resources" />
+      <recent name="I:\Java\shortlink\project\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ShortLinkAdminAppliction" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shortlink-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nageoffer.shortlink.admin.ShortLinkAdminAppliction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nageoffer.shortlink.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShortLinkAdminAppliction" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -40,6 +102,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\pc\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="df570544-a8b7-487c-90d5-8513b20f15f4" name="更改" comment="" />
@@ -47,8 +112,93 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751526395138</updated>
-      <workItem from="1751526396416" duration="2000" />
+      <workItem from="1751526396416" duration="34076000" />
     </task>
+    <task id="LOCAL-00001" summary="feature: 开发公共依赖以及多个模块定义">
+      <option name="closed" value="true" />
+      <created>1751787781329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751787781329</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feature: 开发短链接中心项目初始化">
+      <option name="closed" value="true" />
+      <created>1751787851090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751787851090</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature: 开发短链接网关项目初始化">
+      <option name="closed" value="true" />
+      <created>1751787875904</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751787875904</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feature: 开发全局异常拦截器">
+      <option name="closed" value="true" />
+      <created>1751787968855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751787968855</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feature: 开发用户自定义异常码">
+      <option name="closed" value="true" />
+      <created>1751788016569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751788016569</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feature: 开发短链接规约功能">
+      <option name="closed" value="true" />
+      <created>1751788082410</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751788082410</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feature: 开发短链接后管系统">
+      <option name="closed" value="true" />
+      <created>1751788195851</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751788195851</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feature: 开发公共依赖以及多个模块定义" />
+    <MESSAGE value="feature: 开发短链接中心项目初始化" />
+    <MESSAGE value="feature: 开发短链接网关项目初始化" />
+    <MESSAGE value="feature: 开发全局异常拦截器" />
+    <MESSAGE value="feature: 开发用户自定义异常码" />
+    <MESSAGE value="feature: 开发短链接规约功能" />
+    <MESSAGE value="feature: 开发短链接后管系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 开发短链接后管系统" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
