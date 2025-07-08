@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df570544-a8b7-487c-90d5-8513b20f15f4" name="更改" comment="feature: 通过分布式锁完善用户注册功能，防止恶意请求短时间使用同一相同用户名注册">
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/shardingsphere-config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/test/java/com/nageoffer/shortlink/admin/test/UserTableShardingTest.java" afterDir="false" />
+    <list default="true" id="df570544-a8b7-487c-90d5-8513b20f15f4" name="更改" comment="feature: 用户表通过ShardingSphere完成分表处理">
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/config/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/dto/req/UserLoginReqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/dto/resp/UserLoginRespDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/common/enums/UserErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/common/enums/UserErrorCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/config/RBloomFilterConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/config/RBloomFilterConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/shardingsphere-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/shardingsphere-config.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +149,7 @@
       <updated>1751526395138</updated>
       <workItem from="1751526396416" duration="49856000" />
       <workItem from="1751939264791" duration="2395000" />
-      <workItem from="1751949523603" duration="3386000" />
+      <workItem from="1751949523603" duration="15965000" />
     </task>
     <task id="LOCAL-00001" summary="feature: 开发公共依赖以及多个模块定义">
       <option name="closed" value="true" />
@@ -217,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751940326707</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feature: 用户表通过ShardingSphere完成分表处理">
+      <option name="closed" value="true" />
+      <created>1751971962475</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1751971962475</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +258,8 @@
     <MESSAGE value="feature: 开发短链接后管系统" />
     <MESSAGE value="feature: 开发短链接后管系统通用持久层实体对象属性填充" />
     <MESSAGE value="feature: 通过分布式锁完善用户注册功能，防止恶意请求短时间使用同一相同用户名注册" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: 通过分布式锁完善用户注册功能，防止恶意请求短时间使用同一相同用户名注册" />
+    <MESSAGE value="feature: 用户表通过ShardingSphere完成分表处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 用户表通过ShardingSphere完成分表处理" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
