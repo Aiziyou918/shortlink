@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df570544-a8b7-487c-90d5-8513b20f15f4" name="更改" comment="feature: 开发短链接后管分组排序集合">
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/common/biz/user/UserContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/common/biz/user/UserInfoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/common/biz/user/UserTransmitFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/config/UserConfiguration.java" afterDir="false" />
+    <list default="true" id="df570544-a8b7-487c-90d5-8513b20f15f4" name="更改" comment="feature: 开发短链接后管系统用户上下文封装">
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/dto/req/ShortLinkGroupUpdateReqDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/controller/GroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/controller/GroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/service/GroupService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/service/impl/GroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/nageoffer/shortlink/admin/service/impl/GroupServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +87,9 @@
       <recent name="I:\Java\shortlink\gateway\src\main\resources" />
       <recent name="I:\Java\shortlink\project\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nageoffer.shortlink.admin.dto.req" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ShortLinkAdminAppliction">
     <configuration name="UserTableShardingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -144,7 +147,7 @@
       <workItem from="1751526396416" duration="49856000" />
       <workItem from="1751939264791" duration="2395000" />
       <workItem from="1751949523603" duration="18114000" />
-      <workItem from="1752062126051" duration="18212000" />
+      <workItem from="1752062126051" duration="24713000" />
     </task>
     <task id="LOCAL-00001" summary="feature: 开发公共依赖以及多个模块定义">
       <option name="closed" value="true" />
@@ -274,7 +277,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752722933642</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feature: 用户登录有效时间修改为30天">
+      <option name="closed" value="true" />
+      <created>1752896985652</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1752896985652</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feature: 开发短链接后管系统用户上下文封装">
+      <option name="closed" value="true" />
+      <created>1752897014102</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1752897014102</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +327,9 @@
     <MESSAGE value="feature: 开发短链接后管分组新增功能" />
     <MESSAGE value="feature: 开发短链接后管分组排序字段" />
     <MESSAGE value="feature: 开发短链接后管分组排序集合" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: 开发短链接后管分组排序集合" />
+    <MESSAGE value="feature: 用户登录有效时间修改为30天" />
+    <MESSAGE value="feature: 开发短链接后管系统用户上下文封装" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 开发短链接后管系统用户上下文封装" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
